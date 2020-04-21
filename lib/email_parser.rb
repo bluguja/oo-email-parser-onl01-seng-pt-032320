@@ -10,6 +10,7 @@ def parse
   puts splitEmail = csv_emails.split.collect {|address| address.split(',')} 
   returnArr = splitEmail.flatten.uniq
   returnArr
+  end
 end
 
 
