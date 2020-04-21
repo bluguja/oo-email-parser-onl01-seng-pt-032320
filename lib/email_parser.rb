@@ -1,9 +1,8 @@
 class EmailAdressParser 
   attr_accessor :name, :csv_emails
   
-  def initialize(csv_emails= " @bobsmail")
-#   # you don't need name in here, it is redundant/
-#   @name = name
+  def initialize(csv_emails = " me@bobsmail.com")
+
     @csv_emails = csv_emails
   end 
 
